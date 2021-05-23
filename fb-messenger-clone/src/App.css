@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.app__h4 {
+  color: #575757;
+}
+
+.app__h6 {
+  color: #6d6d6d;
+}
+
+.app__form {
+
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: #e9e9eb;
+  margin: 20px;
+  width: 90%;
+  border-radius: 50px;
+}
+
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app__input {
+  flex: 1;
+  padding-left: 1%;
+  margin-left: 2%;
+}
+
+.app__iconButton {
+  flex: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .app__form {
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: #e9e9eb;
+    margin: 20px;
+    width: 80%;
+    border-radius: 50px;
+  }
+}
